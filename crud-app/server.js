@@ -5,7 +5,7 @@ const userRoutes = require('./routes/userRoutes');
 
 const app = express();
 const PORT = 3000;
-const MONGO_URI = 'mongodb://localhost:27017/crudapp'; // Change if using MongoDB Atlas
+const MONGO_URI = 'mongodb://localhost:27017/crud-app'; 
 
 app.use(bodyParser.json());
 
